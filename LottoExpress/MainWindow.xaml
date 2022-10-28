@@ -7,10 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="생성하기" HorizontalAlignment="Left" Margin="209,13,0,0" VerticalAlignment="Top"
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--<Button Grid.Row="0" Content="테스트1"/>        
+        <Button Grid.Row="1" Content="테스트1"/>
+        <Button Grid.Row="2" Content="테스트1"/>
+        <Button Grid.Row="3" Content="테스트1"/>-->        
+
+        <!--<StackPanel>
+            <Button Content="테스트1"/>
+            <Button Content="테스트1"/>
+            <Button Content="테스트1"/>
+            <Button Content="테스트1"/>
+        </StackPanel>-->
+        
+        
+        <!--<Button Content="생성하기" HorizontalAlignment="Left" Margin="209,13,0,0" VerticalAlignment="Top"
                 Click="Button_Click"/>
         <Label Content="생성번호" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Margin="73,14,0,0" TextWrapping="Wrap" 
-                 VerticalAlignment="Top" Width="120" Background="White"/>
+                 VerticalAlignment="Top" Width="120" Background="White"/>-->
     </Grid>
 </Window>
